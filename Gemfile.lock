@@ -202,7 +202,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.14.1)
+    minitest (5.14.2)
     multipart-post (2.1.1)
     no-style-please (0.2.0)
       jekyll (~> 3.8.7)
@@ -251,7 +251,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  github-pages (~> 206)
   jekyll-feed (~> 0.12)
   no-style-please
   tzinfo (~> 1.2)
