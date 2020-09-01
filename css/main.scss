@@ -269,6 +269,8 @@ img {
 }
 
 .why .box.main {
+  flex-basis: 60%;
+  font-size: 1em;
   margin: 1% 10%;
   padding: 0%;
   text-align: center;
@@ -366,6 +368,9 @@ img {
   .box.main,
   .box {
     flex-basis: 80%;
+  }
+  .why .box.main {
+    font-size: 0.9em;
   }
   .logo {
     min-width: 200px;
