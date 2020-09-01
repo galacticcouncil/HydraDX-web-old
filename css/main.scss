@@ -96,15 +96,15 @@ img {
 }
 
 .globe {
-  background-image: url("../world.gif");
+  background-image: url("../assets/world.gif");
 }
 
 .home {
-  background-image: url("../blue-logo.svg");
+  background-image: url("../assets/blue-logo.svg");
 }
 .home:hover {
   background-color: #f653a2;
-  background-image: url("../blue-logo.svg");
+  background-image: url("../assets/blue-logo.svg");
 }
 
 ::-webkit-scrollbar {
@@ -177,25 +177,25 @@ img {
   font-style: normal;
   font-weight: normal;
   src: local("Moche-regular"), local("Moche-regular"),
-    url(../Moche-Regular.ttf) format("truetype");
+    url(../assets/Moche-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "Pexico-regular";
   font-style: normal;
   font-weight: normal;
   src: local("Pexico-regular"), local("Pexico-regular"),
-    url(../Urtd-Pexico-Regular.ttf) format("truetype");
+    url(../assets/Urtd-Pexico-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "Pexico-micro";
   font-style: normal;
   font-weight: normal;
   src: local("Pexico-micro"), local("Pexico-micro"),
-    url(../Urtd-PexicoMicro-Regular.ttf) format("truetype");
+    url(../assets/Urtd-PexicoMicro-Regular.ttf) format("truetype");
 }
 
 .header {
-  background-image: url("../headerbg.png");
+  background-image: url("../assets/headerbg.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
