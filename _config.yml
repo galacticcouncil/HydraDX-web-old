@@ -28,7 +28,6 @@ twitter_username: hydra_dx
 github_username: galacticcouncil
 
 # Build settings
-theme: no-style-please
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
