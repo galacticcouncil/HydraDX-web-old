@@ -5,7 +5,6 @@ html {
   background: #0d106e;
   color: #52b2ed;
   line-height: 1.5em;
-  -webkit-font-smoothing: antialiased;
   font-size: 1.2em;
   font-family: "Pexico-micro";
   font-style: normal;
@@ -13,7 +12,7 @@ html {
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  cursor: crosshair !important;
+  cursor: crosshair;
 }
 
 body {
@@ -45,7 +44,8 @@ h6 {
 }
 
 .info {
-  margin: 4em auto;
+  margin: auto;
+  padding: 2em;
   max-width: 60ch;
 }
 
@@ -62,7 +62,6 @@ a {
   background-color: #0d106e;
   border: 2px outset #52b2ed;
   text-decoration: none;
-  white-space: unset;
   padding: 0.3em;
   margin: 0.3em;
   vertical-align: middle;
@@ -176,22 +175,19 @@ img {
   font-family: "Moche-regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Moche-regular"), local("Moche-regular"),
-    url(../assets/Moche-Regular.ttf) format("truetype");
+  src: local("Moche-regular"), local("Moche-regular"), url(../assets/Moche-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "Pexico-regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Pexico-regular"), local("Pexico-regular"),
-    url(../assets/Urtd-Pexico-Regular.ttf) format("truetype");
+  src: local("Pexico-regular"), local("Pexico-regular"), url(../assets/Urtd-Pexico-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "Pexico-micro";
   font-style: normal;
   font-weight: normal;
-  src: local("Pexico-micro"), local("Pexico-micro"),
-    url(../assets/Urtd-PexicoMicro-Regular.ttf) format("truetype");
+  src: local("Pexico-micro"), local("Pexico-micro"), url(../assets/Urtd-PexicoMicro-Regular.ttf) format("truetype");
 }
 
 .header {
@@ -207,8 +203,8 @@ img {
 
 .logo {
   margin: auto;
-  width: 35%;
-  min-width: 402px;
+  width: 35vw;
+  min-width: 444px;
   background-color: #0d106e;
 }
 
@@ -370,5 +366,9 @@ img {
   .box.main,
   .box {
     flex-basis: 80%;
+  }
+  .logo {
+    min-width: 200px;
+    width: 90vw;
   }
 }
