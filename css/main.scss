@@ -364,6 +364,13 @@ img {
   font-size: 0.9em;
 }
 
+.bottom-links {
+  line-height: 2.3em;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 65%;
+}
+
 @media only screen and (max-width: 620px) {
   .box.main,
   .box {
@@ -375,5 +382,12 @@ img {
   .logo {
     min-width: 200px;
     width: 90vw;
+  }
+
+  .bottom-links {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    display: block;
+    max-width: 100%;
   }
 }
