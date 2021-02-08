@@ -89,8 +89,9 @@ Tokens are often needed to perform specific tasks; every parachain needs to accu
 ## What is the timeframe for launching HydraDX?
 
 - Hack-net [https://hack.hydradx.io](https://hack.hydradx.io)
-- Test-net with our pool model at the end of 2020
-- Mainnet Early 2021
+- Incentivised testnet - Q1 2021
+- Test-net with our pool model - early Q2 2021
+- Mainnet 2021
 
 
 ## How do I propose a change to HydraDX?
