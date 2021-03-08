@@ -78,7 +78,8 @@ The current vesting schedule stands as following:
 Investors have a vesting period of 18 months, with gradual unlocking, starting at the mainnet launch.
 
 
-The team/founders have additional 6 months to wait after mainnet launch to start vesting for 18 months (24 months total, monthly cliffs).
+The team and founders are vested for 18 months, starting 6 months after the mainnet launch with gradual unlocking. (24 months total)
+
 
 
 ## [Do I need to have HDX to use HydraDX?](#do-i-need-to-have-hdx-to-use-hydradx)
