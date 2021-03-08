@@ -75,7 +75,8 @@ See how to earn HDX above.
 
 The current vesting schedule stands as following:
 
-Investorshave a monthly cliff vesting period for 18 months since the mainnet, with the first 1/18 unlocked at the mainnet launch.  
+Investors have a vesting period of 18 months, with gradual unlocking, starting at the mainnet launch.
+
 
 The team/founders have additional 6 months to wait after mainnet launch to start vesting for 18 months (24 months total, monthly cliffs).
 
