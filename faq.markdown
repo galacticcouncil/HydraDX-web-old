@@ -68,7 +68,7 @@ HDX is a native token of HydraDX. It will be used for governance, staking and mo
 
 The seed round and LBP are over and right now there is no possibility to buy HDX tokens.
 The token will become tradable in the mainnet.
-See how to earn HDX above.
+[See how to earn HDX above.](#how-can-i-earn-hdx)
 
 
 ## [What is the vesting schedule for the team and investors?](#what-is-the-vesting-schedule-for-the-team-and-investors)
