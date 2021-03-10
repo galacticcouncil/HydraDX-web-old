@@ -117,7 +117,8 @@ Please keep in mind that tokens will likely not be tradable for some time (proba
 
 ## [How are the tokenomics set?](#how-are-the-tokenomics-set)
 
-The tokenomics is in an advanced stage of being formalized. Given that HDX has some unique properties the team along with our partners at Blockscience are making sure that every detail and edge-case scenario is covered.  
+The tokenomics is in an advanced stage of being formalized. Given that HDX has some unique properties, the team, along with our partners at Blockscience, are making sure that every detail and edge-case scenario is covered.
+
 
 Note, that the whole project is very long-term oriented so one can expect that the parameters will be aligned with such ambitions. We expect the details to be fully formalized and revealed in the next couple of weeks. 
 
