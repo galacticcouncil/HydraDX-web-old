@@ -108,7 +108,8 @@ Tokens are often needed to perform specific tasks; every parachain needs to accu
 
 ## [Is there any exchange listings planned and when will the token be tradale?](#is-there-any-exchange-listings-planned-and-when-will-the-token-be-tradale)
 
-We are not actively seeking listings, the ultimate goal is to have HDX priced and traded in and around our native liquidity protocol - Omnipool. However, we do not discount the possibility that HDX will be listed on other exchanges. 
+We are not actively seeking listings. The ultimate goal is to have HDX priced and traded in and around our native liquidity protocol - Omnipool. However, we do not discount the possibility that HDX will be listed on other exchanges. 
+
 
 Nevertheless, it is unlikely that the exchanges will list new Substrate-based tokens before parachain auctions. The early entry through the Balancer LBP was for people who believe in the team, the idea and the tech. 
 
