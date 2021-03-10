@@ -19,10 +19,6 @@ HydraDX is a cross-chain liquidity protocol built on Substrate. It is a base lay
 - Users don’t have to use asset in pairs, rather one or any number of assets
 - Financial infrastructure for developers and their applications (e.g. swap assets directly in  wallet, you can plug it to dex aggregators or liquidity aggregator yearn.finance)
 
-## [Who is the HydraDX Team?](#who-is-the-hydradx-team)
-
-The Zee Prime team has co-founded the project, which is led by [Jakub](https://twitter.com/GregusJakub). Other [Jakub](https://twitter.com/JakPanik) has joined as a technical co-founder and a CTO. Besides them, there are 4 other senior developers working on the project full time, plus two front end devs and a designer (see our [github repo](https://github.com/galacticcouncil/hack.HydraDX-node)). Then there is our talented and always ready to help community manager [Pavol](https://twitter.com/KovarikPalo). We are working with Blockscience on advanced mathematical modelling. 
-
 ## [What more do we have planned for you?](#What-more-do-we-have-planned-for-you)
 
 Later we will enable more advanced use cases starting with lending and borrowing which open other possibilities like derivatives (options).
