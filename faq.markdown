@@ -155,7 +155,8 @@ The company tasked with deploying the HydraDX chain has raised $1.5 million. Pro
 
 ## [Analysis of the Balancer LBP](#analysis-of-the-balancer-lbp)
 
-The final price was $0.08059 per xHDX. A total of 22.9m DAI has been raised as the initial liquidity for the HydraDX chain (of which 430k+ in fees). 87% of xHDX from the pool have been sold and the remaining 13% of xHDX (0.65% of total supply) will be moved to the HydraDX treasury.
+The final price was $0.08059 per xHDX. A total of ~22.9 million DAI has been raised as the initial liquidity for the HydraDX chain (of which 430k+ in fees). 87% of xHDX from the pool have been sold and the remaining 13% of xHDX (0.65% of total supply) will be moved to the HydraDX treasury.
+
 
 A more detailed article can be [found here](https://hydradx.substack.com/p/lbp-analysis).
 
