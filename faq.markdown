@@ -134,7 +134,8 @@ The circulating supply at mainnet is expected to be ~25% total (out of which 60%
 
 ## [How are xHDX swapped into HDX?](#how-are-xhdx-swapped-into-hdx)
 
-xHDX is an ERC20 representation of HDX. xHDX will be redeemable as HDX 1:1 on the HydraDX Stakenet.
+xHDX is an ERC20 representation of HDX. xHDX will be redeemable as HDX 1:1 on the HydraDX Stakenet. After the claim, xHDX will be your early adopter badge on Ethereum forever.
+
 
 The [claiming process](https://claim.hydradx.io/) is now open, please read the [guide](https://docs.hydradx.io/claim/) to claim.
 
