@@ -19,7 +19,7 @@ HydraDX is a cross-chain liquidity protocol built on Substrate. It is a base lay
 - Users don’t have to use asset in pairs, rather one or any number of assets
 - Financial infrastructure for developers and their applications (e.g. swap assets directly in  wallet, you can plug it to dex aggregators or liquidity aggregator yearn.finance)
 
-## [What more do we have planned for you?](#What-more-do-we-have-planned-for-you)
+## [What more do we have planned for you?](#what-more-do-we-have-planned-for-you)
 
 Later we will enable more advanced use cases starting with lending and borrowing which open other possibilities like derivatives (options).
 
