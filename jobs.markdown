@@ -103,4 +103,4 @@ Let's talk
 
 ## [Other](#other)
 
-Didn't find anything, like the project, and want to help? Look around in the discord, shoot us a message, help us during the incentivized testnet. We've got a lot of open stuff that we need help with. We will consider every idea and reward meaningful contributions as that is a way to thriving and decentralized community. 
+Didn’t find anything? Do you like the project and want to help? Have a look at HydraDX discord and message us if you would like to help during the incentivized testnet. We always need extra pair of hands. We will consider every idea and reward meaningful contributions.
