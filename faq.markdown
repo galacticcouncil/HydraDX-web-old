@@ -102,7 +102,7 @@ Tokens are often needed to perform specific tasks; every parachain needs to accu
 
 - HDX & fees
 
-## [Is there any exchange listings planned and when will the token be tradale?](#is-there-any-exchange-listings-planned-and-when-will-the-token-be-tradale)
+## [Is there any exchange listings planned and when will the token be tradable?](#is-there-any-exchange-listings-planned-and-when-will-the-token-be-tradable)
 
 We are not actively seeking listings. The ultimate goal is to have HDX priced and traded in and around our native liquidity protocol - Omnipool. However, we do not discount the possibility that HDX will be listed on other exchanges. 
 
