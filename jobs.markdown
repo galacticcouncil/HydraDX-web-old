@@ -93,9 +93,8 @@ If you want to push the current blockchain applications to the next level, belie
 
 **Extra points**
 
-- you can write good code
 - you are skilled in graphical design
-- you can see or write good code
+- you are familiar with best coding practices
 
 **Compensation:**
 
