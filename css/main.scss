@@ -218,12 +218,16 @@ img {
 
 .newsletter {
   font-family: "Moche-regular";
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-transform: uppercase;
   position: absolute;
-  top: 0.5em;
-  right: 0.5em;
-  padding: 1em;
+  width: 9em;
+  top: 2em;
+  right: 2em;
+
+  a {
+    padding:0.3em 0.5em;
+  }
 }
 
 .logo {
@@ -414,5 +418,11 @@ img {
     padding-bottom: 1em;
     display: block;
     max-width: 100%;
+  }
+
+  .newsletter {
+    right: 0;
+    left: 0;
+    margin:auto;
   }
 }
