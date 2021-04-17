@@ -47,7 +47,7 @@ Building things from the ground up is great for avoiding common pitfalls, but it
 
 **Reward**
 
-Fiat (DAI/USDC) + HDX in amounts depending on your time allocation (we prefer a full time).
+Fiat (DAI/USDC) + HDX in amounts depending on your time allocation (we prefer a full-time).
 
 ## [Front-end lead](#front-end-lead)
 
@@ -63,7 +63,7 @@ If you want to push the current blockchain applications to the next level, belie
 
 - strong product orientation
 - strong customer orientation
-- ux knowledge
+- UX knowledge
 - software development experience
 - leading a team of front end engineers
 - knowledge of blockchain applications
