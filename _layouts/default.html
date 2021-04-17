@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'en' }}">
   {%- include head.html -%}
-  <body>
+  <body class="{% if page.style %}{{ page.style }} {% endif %}">
     <main class="page-content" aria-label="Content">
       <div class="wrapper">{{ content }}</div>
       <div class="footer">
