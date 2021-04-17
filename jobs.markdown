@@ -33,7 +33,7 @@ Building things from the ground up is great for avoiding common pitfalls, but it
 
 **What you might find interesting about HydraDX**
 
-* We use a Nominated PoS consensus mechanism that can avoid the notorious [rich getting richer](https://vitalik.ca/general/2020/11/06/pos2020.html) issue in most of the traditional PoS networks.
+* We use a Nominated PoS consensus mechanism that can avoid the notorious [rich getting richer](https://vitalik.ca/general/2020/11/06/pos2020.html){:target="_blank"} issue in most of the traditional PoS networks.
 * We strive to be a vertically integrated protocol, preserving values for its users rather than leaking them out of the system.
 
 **Requirements (not mandatory, but preferably)**
@@ -47,7 +47,7 @@ Building things from the ground up is great for avoiding common pitfalls, but it
 
 **Reward**
 
-Fiat (DAI/USDC) + HDX in amounts depending on your time allocation (we prefer a full time).
+Fiat (DAI/USDC) + HDX in amounts depending on your time allocation (we prefer a full-time).
 
 ## [Front-end lead](#front-end-lead)
 
@@ -63,7 +63,7 @@ If you want to push the current blockchain applications to the next level, belie
 
 - strong product orientation
 - strong customer orientation
-- ux knowledge
+- UX knowledge
 - software development experience
 - leading a team of front end engineers
 - knowledge of blockchain applications

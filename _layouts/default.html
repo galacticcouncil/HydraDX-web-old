@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'en' }}">
   {%- include head.html -%}
-  <body class="{% if page.style %}{{ page.style }} {% endif %}">
+  <body>
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">{{ content }}</div>
+      <div class="wrapper {% if page.style %}{{ page.style }} {% endif %}">{{ content }}</div>
       <div class="footer">
         <a class="home" href="{{ site.url }}/"></a>
         <div class="bottom-links">
