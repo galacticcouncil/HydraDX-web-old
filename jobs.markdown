@@ -9,7 +9,7 @@ style: jobs
 
 **Intro**
 
-HydraDX is an application-specific (para)chain introducing novel construction of a liquidity pool - Omnipool, as a viable alternative to centralized counterparts. Our experiences with the current DeFi protocols and first principle thinking sparked a desire to solve common issues with liquidity in the crypto space, like capital efficiency, security, reliability of execution, UX, and transaction costs for users. We believe that the infrastructure for financial primitives has to be optimized for serving the specific subset of blockchain use cases rather than compete for limited resources with unlimited non-related (non-financial) applications.
+HydraDX is an application-specific (para)chain introducing a novel take on a liquidity pool - the Omnipool, as a viable alternative to centralized counterparts. Our experiences with the current DeFi protocols and first principle thinking sparked a desire to solve common issues with liquidity in the crypto space, like capital efficiency, security, reliability of execution, UX, and transaction costs for users. We believe that the infrastructure for financial primitives has to be optimized for serving the specific subset of blockchain use cases rather than compete for limited resources with unlimited non-related (non-financial) applications.
 
 Building things from the ground up is great for avoiding common pitfalls, but it's also challenging, possibly creating new trade-offs and attack vectors.
 
@@ -33,8 +33,8 @@ Building things from the ground up is great for avoiding common pitfalls, but it
 
 **What you might find interesting about HydraDX**
 
-* It is a Nominated PoS system that can avoid the notorious [rich getting richer](https://vitalik.ca/general/2020/11/06/pos2020.html) issue in most of the PoS networks.
-* It strives to be a vertically integrated protocol, preserving values for its users rather than leaking them out of the system.
+* We use a Nominated PoS consensus mechanism that can avoid the notorious [rich getting richer](https://vitalik.ca/general/2020/11/06/pos2020.html) issue in most of the traditional PoS networks.
+* We strive to be a vertically integrated protocol, preserving values for its users rather than leaking them out of the system.
 
 **Requirements (not mandatory, but preferably)**
 
