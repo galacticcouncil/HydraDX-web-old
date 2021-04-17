@@ -426,3 +426,19 @@ img {
     margin:auto;
   }
 }
+
+.jobs {
+  a {
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  a:hover {
+    color: #f653a2;
+    border-color: transparent;
+    background-color: transparent;
+    border-bottom: 0.1rem solid #f653a2;
+    padding-bottom: 0.05rem;
+  }
+}

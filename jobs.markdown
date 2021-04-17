@@ -1,29 +1,53 @@
 ---
 layout: info
+style: jobs
 ---
 
 # Open positions
 
-## [Researcher](#researcher)
+## [Research Associate](#research-associate)
 
-**Our Mission**
+**Intro**
 
-Breaking chains and math models. But srsly. Building bleeding-edge tech that becomes the liquidity protocol for the world.
+HydraDX is an application-specific (para)chain introducing novel construction of a liquidity pool - Omnipool, as a viable alternative to centralized counterparts. Our experiences with the current DeFi protocols and first principle thinking sparked a desire to solve common issues with liquidity in the crypto space, like capital efficiency, security, reliability of execution, UX, and transaction costs for users. We believe that the infrastructure for financial primitives has to be optimized for serving the specific subset of blockchain use cases rather than compete for limited resources with unlimited non-related (non-financial) applications.
 
-**Description**
+Building things from the ground up is great for avoiding common pitfalls, but it's also challenging, possibly creating new trade-offs and attack vectors.
 
-If you'd like to work on advanced tokenomics and HydraDX protocol design, we'd like you to join our team. We need you to do deep dives and push forward in agumented bonding curves, quadratic voting, zero knowledge proofs and complex system design. If some of these sound like a job for you - we’d like to talk.
+**Some of the research questions with which we are dealing**
 
-**Requirements**
+1. What is a "sound" monetary policy?
 
-- excited about DeFi
-- self-reliant, driven & proactive
-- experience in token-engineering
-- finds math sexy
+    While HydraDX will be covered by shared security from Polkadot, we want to avoid overpaying. Simultaneously, the block producers need to be incentivized to produce new blocks ensuring liveness.
 
-**Compensation:**
+    * What is the balanced inflation rate covering these incentives and maintaining ecosystem growth?
+    * Is the burning of all transaction fees (variations of EIP-1559) the best possible option for the protocol and its participants?
 
-Let's talk
+2. How to maintain incentives, compatibility & integrity?
+
+    * How to set up liquidity mining with a bias towards long-term liquidity commitments, without conflicting with other incentives?
+    * How do staking derivatives affect system security?
+    * Can immediate changes in supply caused by the Omnipool mechanics disrupt incentives in the protocol?
+    * What are the constraints that we should enforce on the network? (e.g. ratio of protocol-side HDX vs total supply from inflation)
+    * How malicious actors could cause losses for other participants or benefit from an "unfair" advantage?
+    * What other forms of "MEV" are plausible?
+
+**What you might find interesting about HydraDX**
+
+* It is a Nominated PoS system that can avoid the notorious [rich getting richer](https://vitalik.ca/general/2020/11/06/pos2020.html) issue in most of the PoS networks.
+* It strives to be a vertically integrated protocol, preserving values for its users rather than leaking them out of the system.
+
+**Requirements (not mandatory, but preferably)**
+
+* Python
+* Matlab or data analytics in any language
+* [CadCad](https://cadcad.org) experience
+* Monte Carlo simulations
+* Statistical analysis
+* Quick Learner
+
+**Reward**
+
+Fiat (DAI/USDC) + HDX in amounts depending on your time allocation (we prefer a full time).
 
 ## [Front-end lead](#front-end-lead)
 
