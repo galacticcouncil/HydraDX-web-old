@@ -33,7 +33,7 @@ Building things from the ground up is great for avoiding common pitfalls, but it
 
 **What you might find interesting about HydraDX**
 
-* We use a Nominated PoS consensus mechanism that can avoid the notorious [rich getting richer](https://vitalik.ca/general/2020/11/06/pos2020.html) issue in most of the traditional PoS networks.
+* We use a Nominated PoS consensus mechanism that can avoid the notorious [rich getting richer](https://vitalik.ca/general/2020/11/06/pos2020.html){:target="_blank"} issue in most of the traditional PoS networks.
 * We strive to be a vertically integrated protocol, preserving values for its users rather than leaking them out of the system.
 
 **Requirements (not mandatory, but preferably)**
