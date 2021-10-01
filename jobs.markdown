@@ -5,7 +5,7 @@ style: jobs
 
 # Open positions
 
-## [Front-end lead](#front-end-lead)
+## [Graphical desinger](#graphical-desinger)
 
 **Our Mission**
 
@@ -15,19 +15,24 @@ Breaking chains and math models. But srsly. Building bleeding-edge tech that bec
 
 If you want to push the current blockchain applications to the next level, believe that things can be improved, and believe that good user experiences drive adoption, we need to talk.
 
-**Requirements**
+**Responsibilities**
 
-- strong product orientation
-- strong customer orientation
-- UX knowledge
-- software development experience
-- leading a team of front end engineers
-- knowledge of blockchain applications
+- Graphical product design
+- Merch
+- NFTs
+- NFT Auctions
+- NFT Marketplace
+- Colors
+- Brand development
+- Presentations
+- Article artwork
+- Working with UXR
+- Explainer animations
 
 **Extra points**
 
-- you are skilled in graphical design
-- you are familiar with best coding practices
+- Knowledge of UXR and other crypto projects
+- You think crypto UX is not good enough
 
 **Compensation:**
 
