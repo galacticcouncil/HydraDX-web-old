@@ -5,7 +5,7 @@ style: jobs
 
 # Open positions
 
-## [Graphical desinger](#graphical-desinger)
+## [Graphical designer](#graphical-designer)
 
 **Our Mission**
 
