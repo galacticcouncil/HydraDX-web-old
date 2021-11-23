@@ -5,6 +5,8 @@ style: jobs
 
 # Open positions
 
+We are always hiring! If you didn't find open position right now, but you're interested in Rust, Governance, Community, Incentive schemes or really anything related to the project please drop us a message on discord.
+
 ## [Graphical designer](#graphical-designer)
 
 **Our Mission**
@@ -38,6 +40,3 @@ If you want to push the current blockchain applications to the next level, belie
 
 Let's talk
 
-## [Other](#other)
-
-Didn’t find anything? Do you like the project and want to help? Have a look at HydraDX discord and message us if you would like to help during the incentivized testnet. We always need extra pair of hands. We will consider every idea and reward meaningful contributions.
