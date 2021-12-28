@@ -230,6 +230,20 @@ img {
   }
 }
 
+.crowdloan {
+  font-family: "Moche-regular";
+  font-size: 1.2em;
+  text-transform: uppercase;
+  position: absolute;
+  width: 9em;
+  top: 2em;
+  right: 10.5em;
+
+  a {
+    padding:0.3em 0.5em;
+  }
+}
+
 .logo {
   margin: auto;
   width: 40vw;
@@ -424,6 +438,12 @@ img {
     right: 0;
     left: 0;
     margin:auto;
+  }
+  .crowdloan {
+    right: 0;
+    left: 0;
+    top: 4.5em;
+    margin: auto;
   }
 }
 
