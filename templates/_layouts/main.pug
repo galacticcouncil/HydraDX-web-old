@@ -1,0 +1,59 @@
+include ../_includes/variables
+include ../_mixins/index
+
+doctype html
+html(lang='en')
+    head
+        block head
+            +common-meta-tags
+
+            - var displayTitle = title + (title ? ' - ' : '') + siteName
+            title=displayTitle
+
+            +favicon-and-appicons
+
+            link(rel='stylesheet' href=url('/main.css'))
+
+            +common-og-tags(displayTitle)
+            +google-analytics('G-TRACKING-CODE')
+        block head-extra
+    body
+        div.myblog.main-content
+            main.page-content(class=`page-${templateName}`)
+                +header
+                block content
+                +footer
+        script(src=url('/main.js'))
+        script.
+            const body = document.body;
+            const scrollUp = "scroll-up";
+            const scrollDown = "scroll-down";
+            const headerHeight = document.querySelector('.header__placeholder').offsetHeight;
+            let lastScroll = 0;
+
+            window.addEventListener("scroll", () => {
+                const currentScroll = window.pageYOffset;
+                if (currentScroll <= 0) {
+                    body.classList.remove(scrollUp);
+                    body.classList.remove('scroll');
+                    return;
+                }
+
+                if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
+                    // down
+                    body.classList.remove(scrollUp);
+                    body.classList.add(scrollDown);
+                    if (currentScroll > headerHeight) {
+                        body.classList.add('scroll');
+                    }
+                } else if (
+                    currentScroll < lastScroll &&
+                    body.classList.contains(scrollDown)
+                ) {
+                    // up
+                    body.classList.remove(scrollDown);
+                    body.classList.add(scrollUp);
+
+                }
+                lastScroll = currentScroll;
+            });

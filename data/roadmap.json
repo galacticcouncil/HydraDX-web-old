@@ -1,0 +1,148 @@
+[
+  {
+    "milestone": "Q2 2019",
+    "tasks": [
+      {
+        "name": "Idea of building a cross-chain liquidity protocol",
+        "done": true
+      }
+    ]
+  },
+  {
+    "milestone": "Q3 2019",
+    "tasks": [
+      {
+        "name": "Built tooling for Polkadot",
+        "done": true
+      },
+      {
+        "name": "First POC for a Uniswap-like XYK pool",
+        "done": true
+      }
+    ]
+  },
+  {
+    "milestone": "Q3 2020",
+    "tasks": [
+      {
+        "name": "Invented a new AMM / CFMM model",
+        "done": true
+      },
+      {
+        "name": "Built a POS chain with asset registry while waiting for XCMP",
+        "done": true
+      }
+    ]
+  },
+  {
+    "milestone": "Q4 2020",
+    "tasks": [
+      {
+        "name": "Started a hacknet",
+        "done": true
+      },
+      {
+        "name": "Transaction payments in exogenous tokens and in-block order matching",
+        "done": true
+      }
+    ]
+  },
+  {
+    "milestone": "Q1 2021",
+    "tasks": [
+      {
+        "name": "Conducted the most successful LBP token distribution in the history of Balancer",
+        "done": true
+      },
+      {
+        "name": "Connected to Rococo testnet",
+        "done": true
+      },
+      {
+        "name": "Conducted some of the first cross-chain transfers",
+        "done": true
+      },
+      {
+        "name": "Joined Berkley Blockchain Accelerator",
+        "done": true
+      },
+      {
+        "name": "Finished the core model of the Omnipool",
+        "done": true
+      }
+    ]
+  },
+  {
+    "milestone": "Q2 2021",
+    "tasks": [
+      {
+        "name": "Enabled staking",
+        "done": true
+      },
+      {
+        "name": "Launched our incentivized testnet called Snakenet",
+        "done": true
+      },
+      {
+        "name": "Released first version of HydraDX-js SDK",
+        "done": true
+      },
+      {
+        "name": "Started audits",
+        "done": true
+      }
+    ]
+  },
+  {
+    "milestone": "Q3 2021",
+    "tasks": [
+      {
+        "name": "Enabled decentralized governance",
+        "done": true
+      },
+      {
+        "name": "Elected the HydraDX Council",
+        "done": true
+      }
+    ]
+  },
+  {
+    "milestone": "Q4 2021",
+    "tasks": [
+      {
+        "name": "Finished the Omnipool research workshop in collab with Blockscience and Token Engineering",
+        "done": true
+      },
+      {
+        "name": "Launch HydraDX crowdloan campaign for a Polkadot parachain",
+        "done": false
+      }
+    ]
+  },
+  {
+    "milestone": "Q1 2022",
+    "tasks": [
+      {
+        "name": "Get onboarded as a Polkadot parachain",
+        "done": false
+      },
+      {
+        "name": "Finalize Omnipool implementation",
+        "done": false
+      }
+    ]
+  },
+  {
+    "milestone": "Rest of 2022",
+    "tasks": [
+      {
+        "name": "Launch an Omnipool testnet",
+        "done": false
+      },
+      {
+        "name": "Mainnet",
+        "done": false
+      }
+    ]
+  }
+]

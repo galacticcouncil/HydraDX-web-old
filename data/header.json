@@ -1,0 +1,74 @@
+{
+  "menu": [
+    {
+      "text": "about",
+      "url": "/#",
+      "dropdown": true,
+      "childrenArr": [
+        "tokenomics",
+        "democracy"
+      ],
+      "dropdownItem": [
+        {
+          "url": "/democracy.html",
+          "text": "Democracy"
+        }
+      ]
+    },
+    {
+      "text": "Docs",
+      "url": "https://docs.hydradx.io/",
+      "dropdown": false,
+      "target": "_blank"
+    },
+    {
+      "text": "grants & bounties",
+      "url": "https://docs.hydradx.io/new_deal",
+      "dropdown": false,
+      "target": "_blank"
+    },
+    {
+      "text": "Newsletter",
+      "url": "https://hydradx.substack.com/",
+      "dropdown": false,
+      "target": "_blank"
+    },
+    {
+      "text": "Jobs",
+      "url": "https://hydradx.io/jobs",
+      "dropdown": false,
+      "target": "_blank"
+    }
+  ],
+  "socialNetwork": [
+    {
+      "name": "twitter",
+      "color": "twitter-color",
+      "url": "https://twitter.com/hydra_dx",
+      "target": "_blank"
+    },
+    {
+      "name": "github",
+      "color": "github-color",
+      "url": "https://github.com/galacticcouncil",
+      "target": "_blank"
+    },
+    {
+      "name": "telegram",
+      "color": "telegram-color",
+      "url": "https://t.me/hydradx",
+      "target": "_blank"
+    },
+    {
+      "name": "discord",
+      "color": "discord-color",
+      "url": "https://discord.gg/enn3P9tDMe",
+      "target": "_blank"
+    }
+  ],
+  "languages": {
+    "en": "Eng",
+    "vi": "Vie"
+  },
+  "launchAppUrl": "/#"
+}

@@ -1,3 +1,2 @@
-# HydraDX-web
-
-needs ruby and jekyll then ``bundle exec jekyll serve``
+# hydradx-website
+HydraDX new website

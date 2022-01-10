@@ -1,0 +1,143 @@
+extends ../_layouts/main
+
+block prepend head
+    - var title = siteDescription
+
+block append head
+    meta(property='og:description' content=siteDescription)
+    meta(property='og:url' content=rootUrl('/'))
+    meta(property='description' content=siteDescription)
+
+block content
+    .header-background-container
+        .header-background
+            .header-background-inner
+                img.header-background-inner-hydra-left(src=url('/images/hydra-right.png'))
+                img.header-background-inner-hydra-right(src=url('/images/hydra-right.png'))
+            .hdx-transform-background
+        .container.px-4
+            .hdx-top-content-container.row.gx-0.px-0
+                .hdx-top-content-item.col-lg-6
+                    span.hdx-about-hydradx-content-title.fz-48.p-color.ff-sans-hl HydraDX is the multi-headed liquidity protocol built for the
+                    span.hdx-about-hydradx-content-title-button.fz-48.ff-sans-hl Polkadot ecosystem
+                .hdx-top-content-item.hdx-top-content.col-lg-6
+                    each aboutHdxInfo in about.aboutHydradx
+                        +hdx-text-with-arrow(aboutHdxInfo)
+                    .hdx-subscribe-btn-wrapper
+                        a.btn.btn__lg.hdx-about-hydradx-subscribe-btn(href=pageLink.subscribe.url target=pageLink.subscribe.target) Subscribe
+            .hdx-universe-img-container
+                img.hdx-universe-img(src=url('/images/universe.png'))
+
+    .hdx-midle-content-container
+        .hdx-about-hydradx-advantages-container.container.px-4
+            .hdx-about-hydradx-advantages.row.gx-0
+                .hdx-about-hydradx-advantage.col-lg-6.px-0
+                    img.hdx-chart-1(src=url('/images/hydradx-chart1.png'))
+                .hdx-about-hydradx-advantage.col-lg-6.px-0
+                    .hdx-about-hydradx-advantage__title.hdx-about-hydradx-content-title.fz-40.p-color.ff-sans-hl Frictionless liquidity for all crypto-assets
+                    .hdx-home-info-box.row.gx-0
+                            each infoAboutHdx in about.informationAboutHydraDx
+                                .hdx-home-info-box-item.col-lg-6
+                                    +hdx-info-box(infoAboutHdx.title, infoAboutHdx.text)
+            .hdx-about-hydradx-title.fz-40.p-color.ff-sans-hl Multi-Chain Powered by Substrate
+            .row.gx-0
+                .hdx-hydradx1-infographic-wrapper.col-lg-6.px-0
+                    .hdx-info-graphic
+                        img.hdx-hydradx1-infographic(src=url('/images/hydradx1.png'))
+                    .hdx-hydradx1-infographic__title.fz-20.p-color.p-shadow.text-center NATIVE LIQUIDITY FOR POLKADOT ECOSYSTEM
+                    .hdx-hydradx1-infographic__text.text-center HydraDX is a natural swap solution for all assets built on Substrate and in the fast-growing Polkadot ecosystem – a place to bootstrap liquidity.
+                .hdx-hydradx1-infographic-wrapper.col-lg-6.px-0
+                    .hdx-info-graphic
+                        img.hdx-hydradx2-infographic(src=url('/images/hydradx2.png'))
+                    .hdx-hydradx1-infographic__title.fz-20.p-color.p-shadow.text-center CROSS-CHAIN LIQUIDITY PROTOCOL
+                    .hdx-hydradx1-infographic__text.text-center HydraDX is built as a parachain – specialized blockchain on Polkadot network, benefiting from shared security, speed, flexibility and possibility to work with any Ethereum based asset, Polkadot native assets and Bitcoin with more coming
+        +hdx-left-body-icon
+    .hdx-more-information-container
+        .container.px-4
+            .row.gx-0
+                .hdx-more-information-item.col-lg-6.px-0
+                    .hdx-more-information-item__title.fz-40.p-color.ff-sans-hl.h-pr-100.h-text-transform-uppercase Features of the HydraDX Omnipool
+                .hdx-more-information-item.col-lg-6.px-0
+                    each hdxAdvantage in about.advantages
+                        +hdx-text-with-arrow(hdxAdvantage)
+        +hdx-right-body-icon
+    //.hdx-teams-behind-container
+    //    .container.px-4
+    //        .fz-40.p-color.ff-sans-hl.h-text-transform-uppercase.text-center The Teams behind HydraDX
+    //        .hdx-the-teams-behind-content-text.text-center The Zee Prime team has co-founded the project, which is led by Jakub. Other Jakub has joined as a technical co-founder and a CTO. The company behind HydraDX is called GalacticCouncil and is tightly connected to ZeePrime VentureCapital. We are working with Blockscience on advanced mathematical modelling and recently we joined the following initiative with Token Engeneering academy. 
+    //        .hdx-teams-behind-logo
+    //            img.hdx-team-logo(src=url('/images/team1.png'))
+    .container.px-4
+        //.hdx-investor-and-backer-container
+        //    .hdx-investor-and-backer-left-content
+        //        .hdx-investor-and-backer-title.fz-40.p-color.ff-sans-hl.h-text-transform-uppercase Our Investor and Backer
+        //        .hdx-investor-and-backer-text We are proud to announce that we have successfully become a much bigger family. Led by KR1 and Hypersphere, with CMS, Tenzor, DFG and a long list of angels, these are the strategic investors who are backing the company tasked with the development of the decentralized HydraDX protocol.
+        //    .hdx-investor-and-backer-right-content
+        //        img.hdx-investor-and-backer-logo(src=url('/images/investor-and-backer1.svg'))
+        //        img.hdx-investor-and-backer-logo(src=url('/images/investor-and-backer2.svg'))
+        //        img.hdx-investor-and-backer-logo(src=url('/images/investor-and-backer3.svg'))
+        //        img.hdx-investor-and-backer-logo(src=url('/images/investor-and-backer4.svg'))
+        //        img.hdx-investor-and-backer-logo(src=url('/images/investor-and-backer5.svg'))
+        .board-info.member-of
+            .board-info__label Member Of
+            .board-info__body
+                .members
+                    img(src=url('/images/defi.svg') style="width: 186px")
+                    img(src=url('/images/bc-berkeley.svg') style="width: 223px")
+                    img(src=url('/images/substrate.svg') style="width: 155px")
+
+    .hdx-video-and-podcast-container
+        .container.px-4
+            .hdx-video-and-podcast-header
+                .fz-40.p-color.ff-sans-hl.h-text-transform-uppercase video & podcast
+                .hdx-video-and-podcast-btn
+                    a.btn.btn__md.h-text-transform-uppercase(href=pageLink.viewMoreVideo.url target=pageLink.viewMoreVideo.target) view more videos
+            .row.gx-0
+                .hdx-video-and-podcast-item.col-lg-4
+                    iframe.hdx-video-wrapper(src='https://www.youtube.com/embed/SjD6EzghWlM')
+                    a.hdx-video-and-podcast-title.fz-20.p-color.h-text-transform-uppercase.p-shadow(href='https://www.youtube.com/embed/SjD6EzghWlM', target='_blank') Parachain Auctions Podcast: Basilisk, ‘King of Serpents’, Looking to be Crowned...
+                    .hdx-video-and-podcast-text In this episode, Brian Hoffman speaks with Matti Gagliardi and Jakub Panik from HydraDX about their Kusama project Basilisk
+                .hdx-video-and-podcast-item.col-lg-4
+                    iframe.hdx-video-wrapper(src='https://www.youtube.com/embed/av5QUhuByQ8')
+                    a.hdx-video-and-podcast-title.fz-20.p-color.h-text-transform-uppercase.p-shadow(href='https://www.youtube.com/embed/av5QUhuByQ8', target='_blank') The ‘King of Serpents', Basilisk, Crowned with Parachain Slot Number Eight!
+                    .hdx-video-and-podcast-text On today's episode, Brian touches base with Jakub Gregus, co-founder of HydraDX and their Kusama project Basilisk.
+                .hdx-video-and-podcast-item.col-lg-4
+                    iframe.hdx-video-wrapper(src='https://www.youtube.com/embed/Iz1lfVyAKQ0')
+                    a.hdx-video-and-podcast-title.fz-20.p-color.h-text-transform-uppercase.p-shadow(href='https://www.youtube.com/embed/Iz1lfVyAKQ0', target='_blank') Sub0 Online: Basilisk's Take on Existential Deposits in a Multi Asset World
+                    .hdx-video-and-podcast-text What is an existential deposit, why is it important and how can it be addressed in a multi chain universe.
+            .hdx-video-and-podcast-btn-bottom
+                a.btn.btn__md.h-text-transform-uppercase(href=pageLink.viewMoreVideo.url target=pageLink.viewMoreVideo.target) view more videos
+    .hdx-start-building-with-us-container
+        h1.headline-2 Start buiding with us
+        .hdx-start-building-with-us-background-container
+            .hdx-start-building-with-us-background.row.gx-0
+                .col-xl-4.d-none.d-xl-block
+                .col-xl-4.text-center.join-hydration
+                    .hdx-start-building-with-us__join-hydration
+                        img.weird-stroke(src=url('/images/weird_stroke.png'))
+                        a.btn.btn__lg(href=pageLink.joinHydration.url target=pageLink.joinHydration.target) Join Hydration
+                .col-xl-4.community
+                    +hdx-text-with-arrow('Hydration is an active community of builders mentored by our core developers. Fill out the application and join us!')
+    .hdx-roadmap
+        .container.px-4
+            h1.headline-2 Road map
+            table.table.roadmap
+                each one in roadmap
+                    each task, index in one.tasks
+                        - var lastTaskClass = ((index === one.tasks.length - 1) ? 'task-last' : '');
+                        - var firstTaskClass = ((index === 0) ? 'task-first' : '');
+                        tr(class=task.done ? '' : 'p-color')
+                            if index === 0
+                                td.milestone(rowspan=one.tasks.length)=one.milestone
+                            td.task(class=`${firstTaskClass} ${lastTaskClass}`)
+                                ul.listing
+                                    li.listing__item(class=task.done ? '' : 'listing__item--red')=task.name
+                            td.done(class=`${firstTaskClass} ${lastTaskClass}`)
+                                ul.listing.listing__no-style
+                                    li.listing__item=`${task.done ? '★' : '☆'}`
+            +hdx-right-body-icon
+            .about-the-team.text-center
+                h1.p-color.p-shadow.text-uppercase=__('aboutTheTeam')
+                img(src=url('/images/galactic-council.svg') style="width: 205px")
+                - var gcUrl = '<a href="https://galacticcouncil.io/" target="_blank">Galactic Council</a>'
+                p.p-color !{__('aboutTheTeamIntro', gcUrl)}

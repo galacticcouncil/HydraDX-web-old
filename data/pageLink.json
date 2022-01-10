@@ -1,0 +1,39 @@
+{
+  "subscribe": {
+    "url": "https://hydradx.substack.com/",
+    "target": "_blank"
+  },
+  "viewMoreVideo": {
+    "url": "https://www.youtube.com/channel/UC9k9wvy1K53UoqdS2FVvObQ",
+    "target": "_blank"
+  },
+  "joinHydration": {
+    "url": "https://discord.gg/t5hC6ZRVpX",
+    "target": "_blank"
+  },
+  "galacticCouncil": {
+    "url": "https://galacticcouncil.io/",
+    "target": "_blank"
+  },
+
+  "howCanIEarn": {
+    "url": "https://t.me/HydraDX_FAQ/37",
+    "target": "_blank"
+  },
+  "referenda": {
+    "url": "https://docs.hydradx.io/democracy_referenda",
+    "target": "_blank"
+  },
+  "hydradxCouncil": {
+    "url": "https://docs.hydradx.io/democracy_council",
+    "target": "_blank"
+  },
+  "technicalCommittee": {
+    "url": "https://docs.hydradx.io/democracy_technical_committee",
+    "target": "_blank"
+  },
+  "democracy": {
+    "url": "https://docs.hydradx.io/democracy_intro",
+    "target": "_blank"
+  }
+}

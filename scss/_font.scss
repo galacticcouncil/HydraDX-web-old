@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "pexico";
+  src: url("./fonts/pexico/pexico.eot"); /* IE9*/
+  src: url("./fonts/pexico/pexico.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./fonts/pexico/pexico.woff2") format("woff2"), /* chrome、firefox */
+  url("./fonts/pexico/pexico.woff") format("woff"), /* chrome、firefox */
+  url("./fonts/pexico/pexico.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("./fonts/pexico/pexico.svg#pexico") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "moche";
+  src: url("./fonts/moche/Moche-Regular.eot"); /* IE9*/
+  src: url("./fonts/moche/Moche-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./fonts/moche/Moche-Regular.woff2") format("woff2"), /* chrome、firefox */
+  url("./fonts/moche/Moche-Regular.woff") format("woff"); /* chrome、firefox */
+  font-style: normal;
+  font-weight: 100;
+}

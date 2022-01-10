@@ -1,0 +1,42 @@
+.hdx-left-body-icon-wrapper {
+  position: relative;
+}
+
+.hdx-left-arrow-body-icon {
+  width: 184px;
+  height: 370px;
+  position: absolute;
+  top: -240px;
+  left: 0;
+}
+
+.hdx-left-body-icon {
+  width: 172px;
+  height: 172px;
+  margin-left: 28px;
+}
+
+@media (max-width: 1490px) {
+  .hdx-left-arrow-body-icon {
+    width: 134px;
+    height: 300px;
+  }
+
+  .hdx-left-body-icon {
+    width: 142px;
+    height: 142px;
+  }
+}
+
+@media (max-width: breakpoint-min('lg')) {
+  .hdx-left-arrow-body-icon {
+    width: 120px;
+    height: 230px;
+    top: -200px;
+  }
+
+  .hdx-left-body-icon {
+    width: 120px;
+    height: 120px;
+  }
+}
