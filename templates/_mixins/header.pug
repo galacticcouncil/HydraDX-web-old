@@ -3,9 +3,9 @@ mixin header
     - var labelActive = (nameArr, name) => nameArr.includes(templateName) || templateName === name ? 'label-active' : ''
     - var childrenActive = (name) => templateName === name ? 'children-active' : ''
     - var extractTemplateName = (url) => {if (url === '/') return 'index'; return url ? url.replace('/', '').replace('.html', '') : ''};
-    .hdx-top-header-contribute#contributeEl
-        .hdx-top-header-contribute__text The HydraDX Crowdloan is live.
-        a.btn.btn__sm.contribute-button(href="https://loan.hydradx.io/" target="_blank") Contribute now
+    //.hdx-top-header-contribute#contributeEl
+    //    .hdx-top-header-contribute__text The HydraDX Crowdloan is live.
+    //    a.btn.btn__sm.contribute-button(href="https://loan.hydradx.io/" target="_blank") Contribute now
     header.header.header-desktop.d-xl-flex
         a.header__logo(href=url('/'))
             img(src=url('/images/logo-pink-darkblue.svg'))
