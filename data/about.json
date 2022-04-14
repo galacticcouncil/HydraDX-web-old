@@ -13,7 +13,7 @@
     },
     {
       "title": "Powered by (L)HDX",
-      "text": "LHDX is minted by the protocol and used as a proxy to determine the value of all assets in the Omnipool. HDX remains the main protocol token which grants membership to the tribe and voting rights in all matters affecting the protocol."
+      "text": "LRNA is minted by the protocol and used as a proxy to determine the value of all assets in the Omnipool. HDX remains the main protocol token which grants membership to the tribe and voting rights in all matters affecting the protocol."
     }
   ],
   "advantages": [
@@ -22,7 +22,7 @@
     "A multitude of assets in a single liquidity pool (“an ocean of liquidity”)",
     "Earn passive income by becoming a liquidity provider",
     "Reduced slippage due to aggregated liquidity",
-    "Possibility to provide liquidity for a single asset (together with chain token LHDX)",
+    "Possibility to provide liquidity for a single asset (together with chain token LRNA)",
     "Order batching, providing a uniform clearing price & MEV protection"
   ]
 }
