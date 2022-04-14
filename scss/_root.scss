@@ -1,0 +1,22 @@
+:root {
+    --primray-color: #{$primary-color};
+    --text-color: #{$text-color};
+    --bgc: #{$bgc};
+    --header-contribute-text-color: #{$bgc};
+    --footer-bgc: #{$footer-bgc};
+    --meta-color: #{$meta-color};
+    --border-color: #{$border-color};
+    --code-color: #{$code-color};
+    --code-bgc: #{$code-bgc};
+    --btn-border-color: #{$btn-border-color};
+
+    --twitter-color: #{$twitter-color};
+    --github-color: #{$github-color};
+    --telegram-color: #{$telegram-color};
+    --discord-color: #{$discord-color};
+
+    --main-font: #{$main-font};
+    --serif-font: #{$serif-font};
+    --sans-font: #{$sans-font};
+    --sans-font-hl: #{$sans-font-hl};
+}

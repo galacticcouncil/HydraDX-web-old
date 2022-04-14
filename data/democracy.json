@@ -1,0 +1,35 @@
+{
+  "information": [
+    "Public Referendum",
+    "Council Referendum",
+    "Emergency Proposals by the Technical Committee",
+    "Canceling a Referendum"
+  ],
+  "advantages": [
+    {
+      "img": "democracy-page",
+      "title": "super majority approve",
+      "text": "This is the default voting mode when a referendum is proposed by the Community. At lower turnouts, a qualified super-majority of “YES” votes is required in order to approve the referendum. As the turnout grows, the threshold decreases towards a simple majority."
+    },
+    {
+      "img": "democracy-dislike",
+      "title": "Super Majority Against",
+      "text": "This voting mode applies to referenda which have been proposed by the Council unanimously. Such proposals require a qualified super-majority of “NO” votes to be rejected at low turnouts. As the turnout grows, the threshold for rejecting the referendum decreases towards a simple majority."
+    },
+    {
+      "img": "democracy-population",
+      "title": "Simple Majority",
+      "text": "Referenda which were initiated by the Council with majority agreement (i.e. not unanimously) can be accepted by the community with a simple majority of the votes (50% +1)."
+    }
+  ],
+  "hydradxConcil": [
+    "The HydraDX Council currently consists of 13 members.",
+    "A minority share of 6 seats is reserved for the founding team and the investors (4 founders + 2 investors).",
+    "The remaining 7 seats are elected by the wider community of HDX holders."
+  ],
+  "technicalCommitee": [
+    "The Technical Committee is a group of experienced core developers which is appointed directly by the HydraDX Council. Its main task is to safeguard the technical stability of the protocol.",
+    "The Technical Committee has the right to produce emergency referenda which are fast-tracked and voted in parallel with any other active referenda. This allows the Committee to act quickly and deliver critical (code) changes.",
+    "Another important power of the Technical Committee is the ability to cancel referendum proposals which are deemed to be detrimental to the protocol. In order to cancel a referendum proposal, the Committee must agree unanimously."
+  ]
+}
