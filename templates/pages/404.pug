@@ -1,0 +1,15 @@
+extends ../_layouts/main
+
+block prepend head
+    - var title = '404 Not Found'
+
+block append head
+    - var description = "Oops!! There's nothing here.";
+    meta(property='og:description' content=description)
+    meta(property='og:url' content=rootUrl('/404.html'))
+    meta(property='description' content=description)
+
+block content
+    .notfound-wrapper#errorBody
+        .notfound
+            .notfound-text=description

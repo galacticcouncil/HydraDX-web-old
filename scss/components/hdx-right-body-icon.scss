@@ -1,0 +1,43 @@
+.hdx-right-body-icon-wrapper {
+  position: relative;
+}
+
+.hdx-right-arrow-body-icon {
+  width: 110px;
+  height: 224px;
+  position: absolute;
+  top: -170px;
+  left: 0;
+}
+
+.hdx-right-body-icon {
+  width: 83px;
+  height: 204px;
+  margin-right: 28px;
+}
+
+@media (max-width: 1490px) {
+  .hdx-right-arrow-body-icon {
+    width: 90px;
+    height: 194px;
+  }
+
+  .hdx-right-body-icon {
+    width: 63px;
+    height: 164px;
+  }
+}
+
+@media (max-width: breakpoint-min('lg')) {
+  .hdx-right-arrow-body-icon {
+    width: 69px;
+    height: 150px;
+    top: -110px;
+    left: 9px;
+  }
+
+  .hdx-right-body-icon {
+    width: 50px;
+    height: 110px;
+  }
+}
