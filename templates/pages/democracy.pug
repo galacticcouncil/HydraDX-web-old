@@ -1,0 +1,63 @@
+extends ../_layouts/main
+
+block prepend head
+    - var title = siteDescription
+
+block append head
+    meta(property='og:description' content=siteDescription)
+    meta(property='og:url' content=rootUrl('/'))
+    meta(property='description' content=siteDescription)
+
+block content
+    .hdx-d-top-content-container.container.px-4
+        .header-background
+            .header-background-inner
+                .hdx-d-transform-background
+        .hdx-d-content-box
+            .hdx-d-top-content-title.hdx-d-content-title.ff-sans-hl.fz-48 HydraDX Democracy
+            .hdx-d-top-content-text.fz-18.text-center All decisions which affect the protocol are adopted following a democratic process which is supported by the Substrate democracy module. The central mechanism for establishing consensus among the stakeholders is the referendum.
+        .row.gx-0
+            .hdx-d-top-content-info-box-item.col-lg-6
+                .hdx-d-info-box-title.fz-40.ff-sans-hl Referenda
+                .hdx-d-info-box-text Referenda allow stakeholders to put a proposal to a weighted, stake-based vote by the wider community. There are multiple ways to initiate a referendum which are described in greater detail below. The way the referendum was initiated is decisive for the applicable voting mode.
+            .hdx-d-top-content-info-box-item.col-lg-6
+                each info in democracy.information
+                    +hdx-text-with-arrow(info)
+                .hdx-d-more-information-btn-wrapper
+                    a.hdx-d-more-information-btn.btn.btn__md(href=pageLink.referenda.url target=pageLink.referenda.target) More Information
+    .hdx-d-middle-content-container
+        .container.px-4
+            .row.gx-0
+                each advantage in democracy.advantages
+                    .hdx-d-advantage-item.col-lg-4
+                        img.hdx-d-avantage-icon(src=url(`/images/${advantage.img}.png`))
+                        .hdx-d-info-box-small-title.fz-20=advantage.title
+                        .hdx-d-advantage-item__text=advantage.text
+    .container.px-4
+        .hdx-d-hydradx-concil.row.gx-0
+            .hdx-d-hydradx-concil-item.col-lg-6
+                .hdx-d-hydradx-concil-icon-title.hdx-d-info-box-small-title.text-center Elected Council with 13 Members
+                img.hdx-d-hydradx-concil-img(src=url('/images/hydradx-concil.png'))
+            .hdx-d-hydradx-concil-item.col-lg-6
+                .hdx-d-info-box-title.fz-40.ff-sans-hl HydraDX Council
+                .hdx-d-info-box-text The HydraDX Council is an on-chain entity which plays a key role in the governance of the protocol.
+                each concil in democracy.hydradxConcil
+                    +hdx-text-with-arrow(concil)
+                .hdx-d-more-information-btn-wrapper
+                    a.hdx-d-more-information-btn.btn.btn__md(href=pageLink.hydradxCouncil.url target=pageLink.hydradxCouncil.target) More Information
+        .hdx-d-technical-commitee.row.gx-0
+            .hdx-d-technical-commitee-item.col-lg-6
+                .hdx-d-info-box-title.fz-40.ff-sans-hl Technical Commitee
+                each commitee in democracy.technicalCommitee
+                    .hdx-d-info-box-text=commitee
+                .hdx-d-more-information-btn-wrapper
+                    a.hdx-d-more-information-btn.btn.btn__md(href=pageLink.technicalCommittee.url target=pageLink.technicalCommittee.target) More Information
+            .hdx-d-technical-commitee-item.col-lg-6
+                img.hdx-d-technical-commitee-img(src=url('/images/technical-commitee.png'))
+        .hdx-d-bottom-content-container
+            .hdx-d-bottom-content-text-wrapper
+                span.h-text-transform-uppercase.hdx-d-bottom-content-text.ff-sans-hl More information about HydraDX Democracy,
+                a.h-text-transform-uppercase.hdx-d-bottom-content-text.p-color.ff-sans-hl(href=pageLink.democracy.url target="_blank")  please visit our docs
+                img.hdx-d-bottom-content-img(src=url('/images/democracy-bottom-image.png'))
+
+

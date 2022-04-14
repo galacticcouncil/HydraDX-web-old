@@ -1,0 +1,19 @@
+.hdx-social-media-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+
+  img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.hdx-social-media-btn:last-child {
+  margin-right: 0;
+}

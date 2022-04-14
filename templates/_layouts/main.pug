@@ -1,0 +1,25 @@
+include ../_includes/variables
+include ../_mixins/index
+
+doctype html
+html(lang='en')
+    head
+        block head
+            +common-meta-tags
+
+            - var displayTitle = title + (title ? ' - ' : '') + siteName
+            title=displayTitle
+
+            +favicon-and-appicons
+
+            link(rel='stylesheet' href=url('/main.css'))
+
+            +common-og-tags(displayTitle)
+        block head-extra
+    body
+        div.myblog.main-content
+            main.page-content(class=`page-${templateName}`)
+                +header
+                block content
+                +footer
+        script(src=url('/main.js'))
