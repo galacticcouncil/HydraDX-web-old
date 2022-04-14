@@ -1,0 +1,17 @@
+.hdx-text-with-arrow {
+  padding: 5px 0;
+  display: flex;
+}
+
+.hdx-text-with-arrow:before {
+  content: '';
+  background-image: url("./images/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0.5em 12px 0.5em 0;
+  flex: 0 0 22px;
+  width: 22px;
+  height: 16px;
+}

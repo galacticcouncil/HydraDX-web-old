@@ -1,0 +1,808 @@
+.page-index {
+  .header-background-container {
+    position: relative;
+  }
+
+  .header-background {
+    background: url("./images/repeat-header-background.png") repeat;
+    display: flow-root;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    min-width: $min-width;
+  }
+
+  .header-background-inner {
+    height: 100%;
+    position: relative;
+  }
+
+  .header-background-inner-hydra-left, .header-background-inner-hydra-right {
+    position: absolute;
+  }
+
+  .header-background-inner-hydra-left {
+    transform: scaleX(-1);
+    opacity: 0.2;
+    max-width: 500px;
+    //height: 1019.12px;
+    left: 0;
+    top: -100px;
+  }
+
+  .header-background-inner-hydra-right {
+    opacity: 0.2;
+    max-width: 400px;
+    //height: 825.96px;
+    right: 0;
+    top: 167px;
+  }
+
+  .hdx-top-content-container {
+    padding-top: 190px;
+  }
+
+  .hdx-top-content-item:first-child {
+    padding-right: 50px;
+  }
+
+  .hdx-about-hydradx-content-title {
+    text-transform: uppercase;
+  }
+
+  .hdx-about-hydradx-content-title-button {
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: underline;
+    width: fit-content;
+    margin-left: 10px;
+  }
+
+  .hdx-about-hydradx-subscribe-btn {
+    line-height: 24px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 34px;
+  }
+
+  .hdx-more-information-item__title {
+    font-size: 66px;
+    line-height: 80px;
+  }
+
+  .hdx-universe-img {
+    padding: 59px 0;
+    max-width: 1330px;
+  }
+
+  .hdx-transform-background {
+    background: linear-gradient(180deg, rgba(13, 16, 110, 0) 1.06%, #0D106E 100%);
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .hdx-midle-content-container {
+    background: linear-gradient(180deg, #0D106E 8.29%, #0B0D56 76.59%);
+    position: relative;
+  }
+
+  .hdx-midle-content-container .hdx-left-body-icon-container {
+    position: absolute;
+    left: 0;
+    bottom: -86px;
+  }
+
+  .hdx-about-hydradx-advantages-container {
+    padding-bottom: 150px;
+  }
+
+  .hdx-about-hydradx-advantages {
+    margin-bottom: 125px;
+  }
+
+  .hdx-chart-1 {
+    margin-left: -28px;
+    margin-top: 30px;
+    width: 704px;
+  }
+
+  .hdx-home-info-box {
+    margin-top: 52px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hdx-home-info-box-item:first-child {
+    padding-right: 15px;
+  }
+
+  .hdx-home-info-box-item:last-child {
+    padding-left: 15px;
+  }
+
+  .hdx-about-hydradx-title {
+    margin: 0 370px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .hdx-info-graphic {
+    display: flex;
+    height: 600px;
+    align-items: center;
+  }
+
+  .hdx-hydradx1-infographic__title {
+    padding: 0 220px;
+  }
+
+  .hdx-hydradx1-infographic__text {
+    padding: 28px 98px 0 98px;
+  }
+
+  .hdx-hydradx1-infographic {
+    width: 597px;
+    height: 582px;
+  }
+
+  .hdx-hydradx2-infographic {
+    width: 627px;
+    height: 421px;
+  }
+
+  .hdx-more-information-container {
+    margin-top: 130px;
+    position: relative;
+  }
+
+  .hdx-roadmap {
+    position: relative;
+  }
+
+  .hdx-more-information-container .hdx-right-body-icon-container {
+    position: absolute;
+    right: 0;
+    top: 263px;
+  }
+
+  .hdx-roadmap .hdx-right-body-icon-container {
+    position: absolute;
+    right: 0;
+    bottom: 195px;
+  }
+
+  .hdx-teams-behind-container {
+    background-size: 100% auto;
+    background-image: url("./images/home-background.png");
+    background-repeat: no-repeat;
+    display: flow-root;
+    height: 795px;
+    z-index: -1;
+    width: 100%;
+    min-width: $min-width;
+    background-position: center bottom;
+    padding-top: 125px;
+  }
+
+  .hdx-teams-behind-logo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .hdx-team-logo {
+    width: 240px;
+    height: 240px;
+  }
+
+  .hdx-the-teams-behind-content-text {
+    margin: 23px 280px 0;
+  }
+
+  .hdx-teams-behind-logo {
+    margin-top: 60px;
+
+  }
+
+  .hdx-investor-and-backer-container {
+    margin-top: 140px;
+    display: flex;
+    margin-bottom: 175px;
+  }
+
+  .hdx-investor-and-backer-left-content {
+    flex: 1;
+  }
+
+  .hdx-investor-and-backer-right-content {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .hdx-investor-and-backer-title {
+    margin-bottom: 32px;
+    padding-right: 70px;
+  }
+
+  .board-info {
+    margin-top: 200px;
+  }
+
+  .members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    img {
+      margin: 0.2em 3em;
+    }
+  }
+
+  .hdx-video-and-podcast-container {
+    background: linear-gradient(180deg, #0D106E 8.29%, #0B0D56 76.59%);
+    padding: 110px 0;
+  }
+
+  .hdx-video-and-podcast-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+  }
+
+  .hdx-video-and-podcast-item:not(:last-child) {
+    padding-right: 20px;
+  }
+
+  .hdx-video-wrapper {
+    width: 100%;
+    height: 250px;
+    border: 2px solid var(--border-color);
+    box-shadow: 0px 0px 40px rgba(94, 175, 225, 0.6);
+    margin-bottom: 20px;
+  }
+
+  .hdx-video-and-podcast-text {
+    margin-top: 12px;
+  }
+
+  .headline-2 {
+    @extend .p-color;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 1em;
+  }
+
+  .hdx-universe-img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  table.table.roadmap {
+    margin-bottom: 5em;
+    margin-top: 2em;
+
+    border: 2px solid var(--primray-color);
+    box-shadow: 0px 0px 40px rgba(246, 83, 162, 0.5);
+    border-radius: 5px;
+    width: 100%;
+    border-spacing: 0;
+
+    tr:last-child {
+      td {
+        border-bottom: none;
+      }
+    }
+
+    td {
+      padding: 0.3em 1em;
+      border-bottom: 1px solid var(--primray-color);
+      border-right: 1px solid var(--primray-color);
+
+      &.milestone {
+        vertical-align: top;
+        padding: 0.7em 1.5em;
+      }
+
+      &:last-child {
+        border-right: none;
+        vertical-align: top;
+      }
+
+      &.task:not(.task-last), &.done:not(.task-last) {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+
+      li.listing__item {
+        padding: 0;
+      }
+
+      &.task-last {
+        padding-bottom: 0.7em;
+      }
+
+      &.task-first {
+        padding-top: 0.7em;
+      }
+    }
+
+    @media (max-width: breakpoint-min('sm')) {
+      td.milestone {
+        padding: 0.7em 1em;
+      }
+    }
+  }
+
+  .hdx-start-building-with-us-container {
+    margin-bottom: 150px;
+    margin-top: 100px;
+  }
+
+  .hdx-start-building-with-us-background-container {
+    position: relative;
+  }
+
+  .hdx-start-building-with-us-background {
+    background-size: 70vw 100%;
+    background-image: url("./images/start-building-with-us-bg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    height: 451px;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .hdx-start-building-with-us__join-hydration {
+    display: inline-block;
+    position: relative;
+  }
+
+  .weird-stroke {
+    width: 920px;
+    height: auto;
+    position: absolute;
+    top: -66px;
+    right: 100%;
+    z-index: -1;
+    margin-right: -50px;
+  }
+
+  .join-hydration {
+    margin-top: 44px;
+  }
+
+  .community {
+    margin-top: 52px;
+    max-width: 500px;
+    padding: 0 30px;
+  }
+
+  .hdx-video-and-podcast-title {
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  .about-the-team {
+    max-width: 360px;
+    margin: 0 auto 5em auto;
+    font-size: 16px;
+
+    h2 {
+      margin-bottom: 1.5em;
+    }
+  }
+
+  .hdx-video-and-podcast-btn-bottom {
+    display: none;
+  }
+
+  @media(max-width: 1600px) {
+    .hdx-roadmap .hdx-right-body-icon-container {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1489px) {
+
+    .hdx-chart-1 {
+      width: 565px;
+    }
+
+    .hdx-about-hydradx-title {
+      margin: 0 270px;
+    }
+
+    .hdx-hydradx1-infographic__title {
+      padding: 0 170px;
+    }
+
+    .hdx-more-information-container .hdx-right-body-icon-container {
+      top: 360px;
+    }
+  }
+
+  @media (max-width: breakpoint-min('xxl')) {
+    .weird-stroke {
+      width: 700px;
+      margin-right: -60px;
+      top: -55px;
+    }
+  }
+
+  @media (max-width: breakpoint-max('xl')) {
+    .hdx-start-building-with-us-background {
+      background-size: contain;
+    }
+
+    .weird-stroke {
+      width: 650px;
+    }
+
+    .hdx-top-content-item {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .hdx-top-content-item:last-child {
+      margin-top: 50px;
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    .hdx-subscribe-btn-wrapper {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .hdx-top-content-item:first-child {
+      padding-right: 0;
+    }
+
+    .hdx-about-hydradx-advantage {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .hdx-about-hydradx-advantage:first-child {
+      margin-top: 100px;
+      order: 2;
+    }
+    .hdx-about-hydradx-advantage:last-child {
+      order: 1;
+    }
+
+    .hdx-about-hydradx-advantage__title {
+      text-align: center;
+    }
+
+    .hdx-about-hydradx-title {
+      margin: 0 170px;
+    }
+
+    .hdx-hydradx1-infographic-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .hdx-hydradx1-infographic__title {
+      padding: 0 90px;
+    }
+
+    .hdx-chart-1 {
+      margin-left: 0;
+    }
+
+    .hdx-hydradx1-infographic__text {
+      padding: 28px 45px 0;
+    }
+
+    .hdx-more-information-item {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .hdx-more-information-item__title {
+      text-align: center;
+      padding-right: 0;
+      font-size: 44px;
+      line-height: 58px;
+    }
+
+    .hdx-the-teams-behind-content-text {
+      margin: 0 150px;
+    }
+
+    .hdx-team-logo {
+      width: 180px;
+      height: 180px;
+    }
+
+    .hdx-investor-and-backer-container {
+      flex-direction: column;
+    }
+
+    .hdx-investor-and-backer-left-content {
+      text-align: center;
+    }
+
+    .hdx-investor-and-backer-title {
+      text-align: center;
+      padding-right: 0;
+    }
+
+    .hdx-investor-and-backer-right-content {
+      margin-top: 50px;
+      justify-content: center;
+    }
+
+    .community {
+      max-width: 600px;
+      margin: 160px auto 0;
+    }
+
+    .hdx-start-building-with-us-container {
+      margin-bottom: 100px;
+    }
+
+  }
+  @media (max-width: breakpoint-max('lg')) {
+    .header-background-inner-hydra-left {
+      display: none;
+    }
+
+    .weird-stroke {
+      width: 550px;
+      margin-right: -70px;
+    }
+
+    .hdx-video-and-podcast-btn {
+      display: none;
+    }
+
+    .hdx-video-and-podcast-header, .hdx-video-and-podcast-btn-bottom {
+      display: flex;
+      justify-content: center;
+    }
+
+    .hdx-video-and-podcast-btn-bottom {
+      margin-top: 80px;
+    }
+
+    .hdx-home-info-box-item:first-child, .hdx-home-info-box-item:last-child {
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 18px;
+    }
+
+    .hdx-about-hydradx-title {
+      margin: 0 70px;
+    }
+
+    .hdx-team-logo {
+      width: 120px;
+      height: 120px;
+    }
+
+    .hdx-teams-behind-container {
+      height: 725px;
+      padding-top: 100px;
+    }
+
+    .hdx-the-teams-behind-content-text {
+      margin: 0 80px;
+    }
+
+    .hdx-video-and-podcast-item:not(:last-child) {
+      padding-right: 0;
+      margin-bottom: 50px;
+    }
+
+    .hdx-video-and-podcast-title {
+      text-align: center;
+    }
+
+    .hdx-start-building-with-us-container {
+      margin-bottom: 70px;
+    }
+
+    .members img {
+      margin: 2em 3em;
+    }
+
+    .board-info {
+      margin-top: 100px;
+    }
+  }
+
+  @media (max-width: breakpoint-min('md')) {
+    .join-hydration {
+      margin-top: 0;
+    }
+
+    .header-background-inner-hydra-left, .header-background-inner-hydra-right {
+      max-width: 420px;
+    }
+
+    .hdx-transform-background {
+      height: 600px;
+    }
+
+    .weird-stroke {
+      top: -20px;
+      width: 500px;
+      margin-right: -105px;
+    }
+
+    .hdx-chart-1 {
+      width: 500px;
+    }
+
+    .hdx-hydradx1-infographic {
+      height: auto;
+      width: 525px;
+    }
+
+    .hdx-more-information-item__title {
+      font-size: 38px;
+      line-height: 44px;
+    }
+
+    .hdx-hydradx2-infographic {
+      height: auto;
+      width: 525px;
+    }
+
+    .hdx-about-hydradx-title {
+      margin: 0;
+    }
+
+    .hdx-the-teams-behind-content-text {
+      margin: 0;
+    }
+
+    .hdx-roadmap .hdx-right-body-icon-container {
+      display: none;
+    }
+
+    .hdx-video-and-podcast-header {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .hdx-video-and-podcast-btn {
+      margin-top: 20px;
+    }
+
+    .hdx-midle-content-container .hdx-left-body-icon-container,
+    .hdx-more-information-container .hdx-right-body-icon-container {
+      display: none;
+    }
+
+    .hdx-about-hydradx-advantages-container {
+      padding-bottom: 70px;
+    }
+
+    .hdx-more-information-container {
+      margin-top: 70px;
+    }
+
+    .hdx-teams-behind-container {
+      padding-top: 100px;
+    }
+
+    .board-info {
+      margin-top: 90px;
+    }
+
+    .hdx-start-building-with-us-container {
+      margin-top: 50px;
+      margin-bottom: 0;
+    }
+
+  }
+
+  @media (max-width: breakpoint-min('sm')) {
+    .header-background-inner-hydra-left, .header-background-inner-hydra-right {
+      max-width: 350px;
+    }
+
+    .hdx-about-hydradx-advantages {
+      margin-bottom: 80px;
+    }
+
+    .board-info {
+      margin-top: 50px;
+    }
+
+    .hdx-video-and-podcast-container {
+      padding: 80px 0;
+
+    }
+
+    .hdx-start-building-with-us-container {
+      margin-top: 80px;
+    }
+
+    .hdx-about-hydradx-advantage:first-child {
+      margin-top: 40px;
+    }
+
+    .hdx-roadmap {
+      margin-top: -70px;
+    }
+
+    .hdx-top-content-container {
+      padding-top: 140px;
+    }
+
+    .weird-stroke {
+      width: 400px;
+      margin-right: -100px;
+    }
+
+    .hdx-chart-1 {
+      width: 400px;
+    }
+
+    .hdx-hydradx1-infographic, .hdx-hydradx2-infographic {
+      width: 445px;
+    }
+
+    .join-hydration {
+      margin-top: 30px;
+    }
+
+    .community {
+      margin-top: 34px;
+    }
+
+    .hdx-teams-behind-container {
+      height: 575px;
+    }
+
+    .hdx-team-logo {
+      width: 100px;
+      height: 100px;
+    }
+
+    .hdx-info-graphic {
+      height: 400px;
+    }
+  }
+
+  @media (max-width: 430px) {
+    .weird-stroke {
+      //left: -155px;
+      //top: -2px;
+      height: 350px;
+      width: 350px;
+    }
+
+    .join-hydration {
+      margin-top: 0;
+    }
+
+    .hdx-chart-1 {
+      width: 350px;
+    }
+
+    .hdx-hydradx1-infographic, .hdx-hydradx2-infographic {
+      width: 350px;
+    }
+  }
+}

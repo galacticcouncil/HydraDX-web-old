@@ -1,0 +1,176 @@
+extends ../_layouts/main
+
+block prepend head
+    - var title = siteDescription
+
+block append head
+    meta(property='og:description' content=siteDescription)
+    meta(property='og:url' content=rootUrl('/'))
+    meta(property='description' content=siteDescription)
+
+block content
+    .container.px-3
+        .header-background
+        .section-1
+            .text-center
+                img.hydradx(src=url('/images/hydradx.png'))
+
+            h1.headline-1 Cross-chain Liquidity Protocol
+
+            .row.section-1-info-box.gx-0
+                .col-lg-6
+                    .info-box.info-box--shadow
+                        .info-box__content
+                            ul.listing
+                                li.listing__item The Future is Multichain
+                                li.listing__item The Future is Shared Liquidity
+                                li.listing__item Stay Up To Date With The Future
+                        .info-box__bottom
+                            a.info-box__action(href='#') Subscribe
+                .col-lg-6
+                    .info-box.info-box--shadow
+                        .info-box__content
+                            ul.listing
+                                li.listing__item Incentivized Testnet
+                                li.listing__item Time For You To Get Going
+                                li.listing__item Get HDX For Your Contribution
+                        .info-box__bottom
+                            a.info-box__action(href='#') Participate
+
+
+        .section-2
+            h1.headline-2 Start building with us
+
+            .row.section-2-building-with-us
+                .col-xl-4.d-none.d-xl-block
+                .col-xl-4.text-center.join-hydration
+                    .weird-stroke
+                    a.btn.btn__lg(href='#') Join Hydration
+                .col-xl-4.community
+                    ul.listing
+                        li.listing__item.listing__item--large Hydration is an active community of builders mentored by our core developers. Fill out the application and join us!
+
+    .container-wrapper.our-mission-section
+        img.board-info-arrow.right-blue-arrow(src=url('/images/right-blue-arrow.png'))
+        img.board-info-arrow.left-blue-arrow(src=url('/images/left-blue-arrow.png'))
+        .container.px-3
+            .board-info.our-mission
+                .board-info__label Our Mission
+                .board-info__body
+                    ul.listing.fz-24
+                        li.listing__item.listing__item--inline Enable frictionless liquidity for all cryptoassets
+                        li.listing__item.listing__item--inline Build open, neutral & autonomous protocol for liquidity
+                        li.listing__item.listing__item--inline Enable global permisionaless finance
+                    p.opacity-70 HydraDX is built as a parachain – specialized blockchain on Polkadot network, benefiting from shared security, speed and flexibility that it offers. HydraDX is optimized for a single purpose: enabling fluid programmable value exchange.
+
+    .container.px-3
+        .section-3
+            .weird-logo-circling
+            .row.row-1
+                .col-xl-4.col-lg-6
+                    .info-box.info-box--shadow.box-1
+                        .info-box__content.text-center
+                            p.heading APPLICATION-SPECIFIC CHAIN
+                            span.text HydraDX is build to support various financial applications and optimized for DeFi use cases.
+                .col-xl-4.col-lg-6.d-none.d-xl-block
+                .col-xl-4.col-lg-6
+                    .info-box.info-box--shadow.box-2
+                        .info-box__content.text-center
+                            p.heading POWERED BY HDX
+                            span.text Native reserve token improves security and aligns incentives of key network participants. The total supply of HDX is a function of liquidity provisioned.
+            .row.row-2
+                .col-xl-4.col-lg-6
+                    .info-box.info-box--shadow.box-3
+                        .info-box__content.text-center
+                            p.heading MULTI-ASSET LIQUIDITY OMNIPOOL
+                            span.text Our unique solution enables combining all assets into one shared liquidity pool – unlocking unparalleled efficiency.
+                .col-xl-4.col-lg-6.d-none.d-xl-block
+                .col-xl-4.col-lg-6
+                    .info-box.info-box--shadow.box-4
+                        .info-box__content.text-center
+                            p.heading NATIVE LIQUIDITY FOR POLKADOT ECOSYSTEM
+                            span.text HydraDX is a natural swap solution for all assets built on Substrate and in the fast-growing Polkadot ecosystem – a place to bootstrap liquidity.
+    .container-wrapper.member-of-section
+        img.board-info-arrow.right-pink-arrow(src=url('/images/right-pink-arrow.png'))
+        .container.px-3
+            .board-info.member-of
+                .board-info__label Member Of
+                .board-info__body
+                    .members
+                        img(src=url('/images/defi.svg') style="width: 186px")
+                        img(src=url('/images/bc-berkeley.svg') style="width: 223px")
+                        img(src=url('/images/substrate.svg') style="width: 155px")
+    .container-wrapper.road-map-section
+        img.board-info-arrow.left-pink-arrow(src=url('/images/left-pink-arrow.png'))
+        .container.px-3
+            h1.headline-2 Roadmap
+            table.table.roadmap
+                each one in roadmap
+                    each task, index in one.tasks
+                        - var lastTaskClass = ((index === one.tasks.length - 1) ? 'task-last' : '');
+                        - var firstTaskClass = ((index === 0) ? 'task-first' : '');
+                        tr(class=task.done ? '' : 'p-color')
+                            if index === 0
+                                td.milestone(rowspan=one.tasks.length)=one.milestone
+                            td.task(class=`${firstTaskClass} ${lastTaskClass}`)
+                                ul.listing
+                                    li.listing__item(class=task.done ? '' : 'listing__item--red')=task.name
+                            td.done(class=`${firstTaskClass} ${lastTaskClass}`)
+                                ul.listing.listing__no-style
+                                    li.listing__item=`${task.done ? '★' : '☆'}`
+
+
+            .about-the-team.text-center
+                h1.p-color.p-shadow.text-uppercase=__('aboutTheTeam')
+                img(src=url('/images/galactic-council.svg') style="width: 205px")
+                - var gcUrl = '<a href="#">Galactic Council</a>'
+                p.p-color !{__('aboutTheTeamIntro', gcUrl)}
+
+block head-extra
+    style.
+        .our-mission-section,
+        .member-of-section,
+        .road-map-section {
+            position: relative;
+        }
+
+        .board-info-arrow {
+            width: 135px;
+            height: 270px;
+            position: absolute;
+        }
+
+        .right-blue-arrow {
+            top: 25%;
+            left: 0;
+        }
+
+        .right-pink-arrow {
+            top: -45%;
+            left: 0;
+        }
+
+        .left-pink-arrow {
+            top: 35%;
+            right: 0;
+        }
+
+        .left-blue-arrow {
+            top: 25%;
+            right: 0;
+        }
+        @media (max-width: 1660px) {
+            .board-info-arrow {
+                width: 90px;
+                height: 180px;
+            }
+        }
+
+        @media (max-width: 1570px) {
+            .right-blue-arrow,
+            .left-blue-arrow,
+            .right-pink-arrow,
+            .left-pink-arrow {
+                display: none;
+            }
+        }
