@@ -19,17 +19,10 @@ If you want to push the current blockchain applications to the next level, belie
 
 **Responsibilities**
 
-- Graphical product design
-- Merch
-- NFTs
-- NFT Auctions
-- NFT Marketplace
+- User Interface design in Figma
+- Creating reusable components in Figma
 - Colors
-- Brand development
-- Presentations
-- Article artwork
-- Working with UXR
-- Explainer animations
+- Working with UXR to improve the designs
 
 **Extra points**
 
