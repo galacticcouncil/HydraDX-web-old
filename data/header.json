@@ -32,12 +32,6 @@
       "url": "https://hydradx.substack.com/",
       "dropdown": false,
       "target": "_blank"
-    },
-    {
-      "text": "Jobs",
-      "url": "https://hydradx.io/jobs",
-      "dropdown": false,
-      "target": "_blank"
     }
   ],
   "socialNetwork": [
